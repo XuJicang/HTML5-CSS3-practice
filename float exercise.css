@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+#sweden{
+	width:300px;
+	padding:10px 0;
+	border:2px solid #FFF;
+}
+#sweden dl{
+	float:left;
+	margin:10px 20px;
+	padding:0;
+}
+#sweden dl:after{
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+#sweden dt{
+	float:right;
+	width:162px;
+	margin:0;
+	padding:0;
+	font-size:130%;
+	letter-spacing:1px;
+	color:#627081;
+}
+#sweden dd{
+	margin:0 0 0 98px;
+	padding:0;
+	font-size:85%;
+	line-height:1.5em;
+	color::#666;
+}
+#sweden dd.img img{
+	float:left;
+	margin:0 8px 0 0;
+	padding:4px;
+	border:1px solid #D9E0E6;
+	border-bottom-color:#C8CDD2;
+	border-right-color:#C8CDD2;
+	background:#FFF;
+	-webkit-box-shadow:1px 1px 3px rgba(0,0,0,.12);
+	-moz-box-shadow:1px 1px 1px 3px rgba(0,0,0,.12);
+	box-shadow:ow:1px 1px 3px rgba(0,0,0,.12);
+	-moz-box-shadow:1px 1px 1px 3px rgba(0,0,0,.12);
+}
+#sweden .alt dt{
+	float:left;
+}
+#sweden .alt dd.img img{
+	float:right;
+	margin:0 0 0 8px;
+}
+#sweden .alt dd{
+	margin:0 98px 0 0;
+	background:url(../Pictures/%E5%9C%86%E8%A7%92.gif) bottom right no-repeat;	
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fceec4+0,fcd860+50,ffc813+51,fce69e+100 */
+background: rgb(252,238,196); /* Old browsers */
+background: -moz-linear-gradient(-45deg,  rgba(252,238,196,1) 0%, rgba(252,216,96,1) 50%, rgba(255,200,19,1) 51%, rgba(252,230,158,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  rgba(252,238,196,1) 0%,rgba(252,216,96,1) 50%,rgba(255,200,19,1) 51%,rgba(252,230,158,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  rgba(252,238,196,1) 0%,rgba(252,216,96,1) 50%,rgba(255,200,19,1) 51%,rgba(252,230,158,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fceec4', endColorstr='#fce69e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+#sweden :hover{
+    display: block;
+    outline: none;
+    -moz-box-shadow: 3px 3px 5px #000;
+    -webkit-box-shadow: 3px 3px 5px #000;
+    box-shadow: 3px 3px 5px #000; 
+}
+#sweden  dl dd.img{
+	margin:0;
+}

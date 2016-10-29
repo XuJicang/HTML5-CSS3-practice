@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+</head>
+
+<body>
+<div id="location">
+your location will go here.
+</div>
+<div id="distance">
+Distance from wickedlysmart hq  will go here.
+</div>
+<div id="map">
+</div>
+</body>
+<script>
+window.onload=getMyLocation;
+function getMyLocation(){
+	navigator.geolocation.getCurrentPosition(showmap);
+	}
+var map;
+function showmap(position){
+var googleLatAndLong=new google.maps.LatLng(position.coords.latitude,position.coords.longitude);
+var mapOptions={
+	zoom:10,
+	center:googleLatAndLong,
+	mapTypeId:google.maps.MapTypeId.ROADMAP
+	};
+	var mapDiv=document.getElementById("map");
+	map=new google.maps.Map(mapDiv,mapOptions);
+}
+</script>
+</html>

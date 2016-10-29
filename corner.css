@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+div{background-image:url(../Pictures/righttopcorner.gif) top right;}
+.container{
+	float:left;
+	color:#FCF;
+	background:url(righttopcorner.gif) top right no-repeat;
+	background-size:80px 60px;
+	margin:0;
+	padding:30px 30px 0px 0px;
+}
+.container p{
+	margin:0 0 0 30px;
+}
+.container a{
+	font-size:130%;
+	list-style:none;
+	color:#999;
+}
+.link{
+	margin:0;!important;
+	padding:30px 30px 30px 30px;
+	background:url(leftbottomcorner.gif) bottom left no-repeat;
+	background-size:80px 60px;
+}
